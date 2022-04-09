@@ -1,9 +1,10 @@
 import styles from './App.module.css'
+import Inputs from './components/Inputs';
 
 function App() {
   return (
     <div className={styles.container}>
-        selamlar
+        <Inputs/>
     </div>
   );
 }
